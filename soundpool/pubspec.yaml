@@ -23,7 +23,11 @@ dependencies:
       ref: dccda3ac6b01d002aa57241263c5169e4a8ef4c6
       path: soundpool_web
   
-  soundpool_macos: ^0.2.4
+  soundpool_macos:
+    git:
+      url: https://github.com/gongqinjing/soundpool.git
+      ref: 6a198bd1f819f1a6ac7b9148c931c04b6fd2ea6b
+      path: soundpool_macos
     
     
 flutter:
