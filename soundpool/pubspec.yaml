@@ -20,7 +20,7 @@ dependencies:
   soundpool_web:
     git:
       url: https://github.com/gongqinjing/soundpool.git
-      ref: 2e30adfdc332b2457f5de6bd77ea667ec656ac37
+      ref: dccda3ac6b01d002aa57241263c5169e4a8ef4c6
       path: soundpool_web
   
   soundpool_macos: ^0.2.4
