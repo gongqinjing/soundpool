@@ -52,7 +52,7 @@ public class SwiftSoundpoolPlugin: NSObject, FlutterPlugin {
             self.maxStreams = maxStreams
             let session = AVAudioSession.sharedInstance()
             do{
-                try session.setCategory(.playback , options: AVAudioSession.CategoryOptions.mixWithOthers)
+                try session.setCategory(.ambient , options: AVAudioSession.CategoryOptions.mixWithOthers)
             }catch{
             }
         }
