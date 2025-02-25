@@ -14,7 +14,6 @@ import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
-import io.flutter.plugin.common.PluginRegistry.Registrar
 import java.io.File
 import java.io.FileOutputStream
 import java.net.URI
@@ -29,10 +28,6 @@ class SoundpoolPlugin : MethodCallHandler, FlutterPlugin {
     companion object {
         @Suppress("unused")
         @JvmStatic
-        fun registerWith(registrar: Registrar) {
-            var pool = SoundpoolPlugin()
-            pool.onRegister(registrar.context(), registrar.messenger())
-        }
 
         private const val CHANNEL_NAME = "pl.ukaszapps/soundpool"
     }
